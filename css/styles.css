@@ -1,0 +1,188 @@
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Poppins;
+}
+
+p{
+  color: grey;
+}
+/* Heading */
+.big-heading{
+  font-family:Poppins;
+  font-weight: bolder;
+  font-size: 3.4rem;
+  line-height: 1.5;
+  color: white;
+  padding-left: 0;
+}
+
+.container-fluid{
+  padding:3% 15% 7%;
+}
+/* navbar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: Montserrat;
+  font-size: 1.2rem;
+}
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.title-img{
+  width:30%;
+  transform: rotate(25deg);
+  position: absolute;
+  padding-left: 5%;
+}
+
+/* features */
+
+#features{
+padding:7% 0 ;
+background-color: white;
+position: relative;
+}
+.feature-box{
+font-family: Poppins-Light 300;
+font-size: 1rem;
+padding:3% ;
+}
+
+.feature-txt{
+  font-weight: bolder;
+  color: black;
+  font-size: 1.75rem;
+  padding-bottom: 4%;
+}
+.svg-inline--fa {
+    width:1.125em;
+}
+.fa-5x{
+  font-size: 5em;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+.icon:hover{
+  color:#ff4c68
+}
+
+/* testimonial */
+
+#testimonials{
+  background-color:#ef8172;
+  padding-bottom: 0;
+}
+.testimonial-text{
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color:white;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+
+#press{
+  background-color:#ef8172;
+}
+.press-img{
+  padding-bottom: 2% ;
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 7% 0;
+}
+#pricing-txt{
+  color: black;
+}
+.card-row{
+  padding:3% 7%;
+}
+
+.card-text{
+  font-family:Montserrat;
+}
+.card-title{
+  font-size: 2.5rem;
+  padding:10% 0;
+}
+.btn{
+  margin: 8% 0;
+}
+
+/* media section */
+@media (max-width:1028px)
+{
+
+  #title{
+    text-align:center;
+  }
+  .title-img{
+    position: static;
+    transform:rotate(0deg);
+    width:70%;
+  }
+
+}
+
+/* cta section */
+#cta{
+  padding-top: 6%;
+  background-color: #ff4c68;
+}
+
+ /* footer section */
+#footer{
+  padding : 15% ;
+}
+
+.social{
+  padding-bottom: 5%;
+}
+.spanSpace{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.svg-inline--fa.fa-w-89 {
+    width: 2.5em;
+}
+.svg-inline--fa.fa-w-9 {
+    width: 1.3em;
+}
+.svg-inline--fa.fa-w-14 {
+    width: 2.2em;
+}
